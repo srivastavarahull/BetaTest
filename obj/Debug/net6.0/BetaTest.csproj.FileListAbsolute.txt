@@ -6,12 +6,11 @@ C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\Microsoft.VisualS
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\BetaTest.exe
-c:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\BetaTest.deps.json
-c:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\BetaTest.runtimeconfig.json
+C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\BetaTest.deps.json
+C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\BetaTest.runtimeconfig.json
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\BetaTest.dll
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\BetaTest.pdb
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\Autodesk.Forge.Core.dll
-C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\Autodesk.ModelDerivativeApi.dll
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\Autodesk.Oss.dll
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\Autodesk.Sdk.Manager.dll
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
@@ -113,9 +112,9 @@ C:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\BetaTest.Generate
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\BetaTest.AssemblyInfoInputs.cache
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\BetaTest.AssemblyInfo.cs
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\BetaTest.csproj.CoreCompileInputs.cache
-c:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\BetaTest.csproj.CopyComplete
+C:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\BetaTest.csproj.CopyComplete
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\BetaTest.dll
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\refint\BetaTest.dll
 C:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\BetaTest.pdb
-c:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\BetaTest.genruntimeconfig.cache
-c:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\ref\BetaTest.dll
+C:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\BetaTest.genruntimeconfig.cache
+C:\Users\srivasr\Downloads\BetaTest3\BetaTest\obj\Debug\net6.0\ref\BetaTest.dll

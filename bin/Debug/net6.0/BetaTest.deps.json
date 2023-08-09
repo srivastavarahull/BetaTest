@@ -8,9 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "BetaTest/1.0.0": {
         "dependencies": {
-          "Autodesk.ModelDerivativeApi": "3.0.1",
           "Autodesk.Oss": "1.0.0-beta2",
-          "Autodesk.SDKManager": "1.0.1",
+          "Autodesk.SDKManager": "1.0.0-beta1",
           "MSTest.TestAdapter": "2.2.8",
           "MSTest.TestFramework": "2.2.8",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
@@ -39,28 +38,10 @@
           }
         }
       },
-      "Autodesk.ModelDerivativeApi/3.0.1": {
-        "dependencies": {
-          "Autodesk.Forge.Core.NetStandard": "2.0.0",
-          "Autodesk.SDKManager": "1.0.1",
-          "Microsoft.CSharp": "4.7.0",
-          "Microsoft.Extensions.Configuration": "6.0.0",
-          "Microsoft.Extensions.Http": "6.0.0",
-          "Microsoft.Extensions.Logging": "6.0.0",
-          "Microsoft.Extensions.Options": "6.0.0",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Autodesk.ModelDerivativeApi.dll": {
-            "assemblyVersion": "3.0.1.0",
-            "fileVersion": "3.0.1.0"
-          }
-        }
-      },
       "Autodesk.Oss/1.0.0-beta2": {
         "dependencies": {
           "Autodesk.Forge.Core.NetStandard": "2.0.0",
-          "Autodesk.SDKManager": "1.0.1",
+          "Autodesk.SDKManager": "1.0.0-beta1",
           "Microsoft.CSharp": "4.7.0",
           "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Http": "6.0.0",
@@ -75,15 +56,15 @@
           }
         }
       },
-      "Autodesk.SDKManager/1.0.1": {
+      "Autodesk.SDKManager/1.0.0-beta1": {
         "dependencies": {
           "Autodesk.Forge.Core.NetStandard": "2.0.0",
           "Microsoft.Extensions.Logging": "6.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Autodesk.Sdk.Manager.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -1312,13 +1293,6 @@
       "path": "autodesk.forge.core.netstandard/2.0.0",
       "hashPath": "autodesk.forge.core.netstandard.2.0.0.nupkg.sha512"
     },
-    "Autodesk.ModelDerivativeApi/3.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8n4vf5no3oFXlU+5PdWHN1I3ebMS1lvfBOJUQvdFktAP1QkbLsIrnQ+FiC/Zn3BlQEgmnUg13Peej4j+YQTMBw==",
-      "path": "autodesk.modelderivativeapi/3.0.1",
-      "hashPath": "autodesk.modelderivativeapi.3.0.1.nupkg.sha512"
-    },
     "Autodesk.Oss/1.0.0-beta2": {
       "type": "package",
       "serviceable": true,
@@ -1326,12 +1300,12 @@
       "path": "autodesk.oss/1.0.0-beta2",
       "hashPath": "autodesk.oss.1.0.0-beta2.nupkg.sha512"
     },
-    "Autodesk.SDKManager/1.0.1": {
+    "Autodesk.SDKManager/1.0.0-beta1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HVUQJYsvsDb8wMG0UZtTk/snNMQi2WEc8uwIys2Wm/7ISApRrCecUQuJH/27IidR2Bjkm6W4ufF2G96O4woODw==",
-      "path": "autodesk.sdkmanager/1.0.1",
-      "hashPath": "autodesk.sdkmanager.1.0.1.nupkg.sha512"
+      "sha512": "sha512-UDBwxdjPl/3qmJt8OELATuH7R0YIKF4L78Ub+ywX7pUPDBy3+MPjatdqTKBYBGGVtBAUmoIwbCfRLIWR+YH7kw==",
+      "path": "autodesk.sdkmanager/1.0.0-beta1",
+      "hashPath": "autodesk.sdkmanager.1.0.0-beta1.nupkg.sha512"
     },
     "coverlet.collector/3.1.2": {
       "type": "package",

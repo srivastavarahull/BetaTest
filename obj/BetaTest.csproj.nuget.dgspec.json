@@ -22,8 +22,7 @@
         ],
         "sources": {
           "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\packages": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://art-bobcat.autodesk.com/artifactory/api/nuget/v3/autodesk-3p-nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -41,17 +40,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Autodesk.ModelDerivativeApi": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            },
             "Autodesk.Oss": {
               "target": "Package",
               "version": "[1.0.0-beta2, )"
             },
-            "Autodesk.SDKManager": {
+            "Autodesk.SdkManager": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.0-beta1, )"
             },
             "MSTest.TestAdapter": {
               "target": "Package",

@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bs56MVTt6zyMjHZTfITwZvVNRRQZdUbnGRvK//TH1hIL+jXXQ8S3+qbIt2x/o9LEDKiVxNg7MdBl+VDyzoOowQ==",
+  "dgSpecHash": "DNfrQny5pNHIevHnB3NFKLfqBcIb8Xy0kwbivzNwAuWio54yn1j/N13KBAHkYW+UVDRWMLWW//dboMBrqAfXMg==",
   "success": true,
   "projectFilePath": "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\BetaTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\srivasr\\.nuget\\packages\\autodesk.forge.core.netstandard\\2.0.0\\autodesk.forge.core.netstandard.2.0.0.nupkg.sha512",
-    "C:\\Users\\srivasr\\.nuget\\packages\\autodesk.modelderivativeapi\\3.0.1\\autodesk.modelderivativeapi.3.0.1.nupkg.sha512",
     "C:\\Users\\srivasr\\.nuget\\packages\\autodesk.oss\\1.0.0-beta2\\autodesk.oss.1.0.0-beta2.nupkg.sha512",
-    "C:\\Users\\srivasr\\.nuget\\packages\\autodesk.sdkmanager\\1.0.1\\autodesk.sdkmanager.1.0.1.nupkg.sha512",
+    "C:\\Users\\srivasr\\.nuget\\packages\\autodesk.sdkmanager\\1.0.0-beta1\\autodesk.sdkmanager.1.0.0-beta1.nupkg.sha512",
     "C:\\Users\\srivasr\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\srivasr\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\srivasr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

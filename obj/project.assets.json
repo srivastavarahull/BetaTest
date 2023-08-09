@@ -21,25 +21,6 @@
           "lib/netstandard2.0/Autodesk.Forge.Core.dll": {}
         }
       },
-      "Autodesk.ModelDerivativeApi/3.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Autodesk.Forge.Core.NetStandard": "2.0.0",
-          "Autodesk.SdkManager": "1.0.1",
-          "Microsoft.CSharp": "4.7.0",
-          "Microsoft.Extensions.Configuration": "6.0.0",
-          "Microsoft.Extensions.Http": "6.0.0",
-          "Microsoft.Extensions.Logging": "6.0.0",
-          "Microsoft.Extensions.Options": "6.0.0",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Autodesk.ModelDerivativeApi.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Autodesk.ModelDerivativeApi.dll": {}
-        }
-      },
       "Autodesk.Oss/1.0.0-beta2": {
         "type": "package",
         "dependencies": {
@@ -59,7 +40,7 @@
           "lib/netstandard2.0/Autodesk.Oss.dll": {}
         }
       },
-      "Autodesk.SDKManager/1.0.1": {
+      "Autodesk.SDKManager/1.0.0-beta1": {
         "type": "package",
         "dependencies": {
           "Autodesk.Forge.Core.NetStandard": "2.0.0",
@@ -2171,17 +2152,6 @@
         "logo_forge-2-line.png"
       ]
     },
-    "Autodesk.ModelDerivativeApi/3.0.1": {
-      "sha512": "8n4vf5no3oFXlU+5PdWHN1I3ebMS1lvfBOJUQvdFktAP1QkbLsIrnQ+FiC/Zn3BlQEgmnUg13Peej4j+YQTMBw==",
-      "type": "package",
-      "path": "autodesk.modelderivativeapi/3.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "autodesk.modelderivativeapi.3.0.1.nupkg.sha512",
-        "autodesk.modelderivativeapi.nuspec",
-        "lib/netstandard2.0/Autodesk.ModelDerivativeApi.dll"
-      ]
-    },
     "Autodesk.Oss/1.0.0-beta2": {
       "sha512": "skQTJaHP7yF5q6sWAxzXP0X6fLXsj5A+EE3EOls7S6Hd9w+G/MBd/wVI7wo7dhRsGJlFQTTmqFCdBEEx6nLcGw==",
       "type": "package",
@@ -2193,13 +2163,13 @@
         "lib/netstandard2.0/Autodesk.Oss.dll"
       ]
     },
-    "Autodesk.SDKManager/1.0.1": {
-      "sha512": "HVUQJYsvsDb8wMG0UZtTk/snNMQi2WEc8uwIys2Wm/7ISApRrCecUQuJH/27IidR2Bjkm6W4ufF2G96O4woODw==",
+    "Autodesk.SDKManager/1.0.0-beta1": {
+      "sha512": "UDBwxdjPl/3qmJt8OELATuH7R0YIKF4L78Ub+ywX7pUPDBy3+MPjatdqTKBYBGGVtBAUmoIwbCfRLIWR+YH7kw==",
       "type": "package",
-      "path": "autodesk.sdkmanager/1.0.1",
+      "path": "autodesk.sdkmanager/1.0.0-beta1",
       "files": [
         ".nupkg.metadata",
-        "autodesk.sdkmanager.1.0.1.nupkg.sha512",
+        "autodesk.sdkmanager.1.0.0-beta1.nupkg.sha512",
         "autodesk.sdkmanager.nuspec",
         "lib/netstandard2.0/Autodesk.Sdk.Manager.dll"
       ]
@@ -7133,9 +7103,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Autodesk.ModelDerivativeApi >= 3.0.1",
       "Autodesk.Oss >= 1.0.0-beta2",
-      "Autodesk.SDKManager >= 1.0.1",
+      "Autodesk.SdkManager >= 1.0.0-beta1",
       "MSTest.TestAdapter >= 2.2.8",
       "MSTest.TestFramework >= 2.2.8",
       "Microsoft.Extensions.Logging.Abstractions >= 6.0.0",
@@ -7149,23 +7118,22 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\BetaTest.csproj",
+      "projectUniqueName": "C:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\BetaTest.csproj",
       "projectName": "BetaTest",
-      "projectPath": "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\BetaTest.csproj",
+      "projectPath": "C:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\BetaTest.csproj",
       "packagesPath": "C:\\Users\\srivasr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\obj\\",
+      "outputPath": "C:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\NuGet.Config",
+        "C:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\NuGet.Config",
         "C:\\Users\\srivasr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\packages": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://art-bobcat.autodesk.com/artifactory/api/nuget/v3/autodesk-3p-nuget": {}
+        "C:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -7183,17 +7151,13 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Autodesk.ModelDerivativeApi": {
-            "target": "Package",
-            "version": "[3.0.1, )"
-          },
           "Autodesk.Oss": {
             "target": "Package",
             "version": "[1.0.0-beta2, )"
           },
-          "Autodesk.SDKManager": {
+          "Autodesk.SdkManager": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.0-beta1, )"
           },
           "MSTest.TestAdapter": {
             "target": "Package",

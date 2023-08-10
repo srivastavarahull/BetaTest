@@ -23,6 +23,9 @@ public class TestModelDerivativeAPi
     [ClassInitialize]
     public static async Task ClassInitializeAsync(TestContext testContext)
     {
+        Console.WriteLine(_clientId);
+        Console.WriteLine(_clientSecret);
+
         dynamic auth =  await  new TwoLeggedApi().AuthenticateAsync(_clientId, _clientSecret, "client_credentials", new Scope[] { Scope.BucketCreate, Scope.BucketRead, Scope.DataRead, Scope.DataWrite, Scope.DataCreate  });
 
         Console.WriteLine(auth.ToString());
@@ -40,6 +43,7 @@ public class TestModelDerivativeAPi
     [TestMethod]
     public async Task TestGetbucktes()
     {
+        
         Bucket bucket = await ossApi.GetBucketDetailsAsync(bucketKey, accessToken:token);
         string bucketkey = bucket.BucketKey;
         string bucketOwner = bucket.BucketOwner;

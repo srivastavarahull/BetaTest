@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Autodesk.Forge/1.9.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "108.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autodesk.Forge.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autodesk.Forge.dll": {}
+        }
+      },
       "Autodesk.Forge.Core.NetStandard/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -810,6 +823,19 @@
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "RestSharp/108.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -2139,6 +2165,20 @@
     }
   },
   "libraries": {
+    "Autodesk.Forge/1.9.7": {
+      "sha512": "GAjHStJHUAJ2B3XhZ6iB6d6ZOUyYj70uUrX4eGmZxTR64jr7CKnwPD3o/zDVI7piQgpQ+JuswPiNk7/90pitQg==",
+      "type": "package",
+      "path": "autodesk.forge/1.9.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autodesk.forge.1.9.7.nupkg.sha512",
+        "autodesk.forge.nuspec",
+        "lib/net48/Autodesk.Forge.dll",
+        "lib/netstandard2.0/Autodesk.Forge.dll",
+        "logo_forge-2-line.png"
+      ]
+    },
     "Autodesk.Forge.Core.NetStandard/2.0.0": {
       "sha512": "eNdgNhz74Cv7c6iGf2QtEULZn3a/OuvckN429Xuc9ZEUrA+BdSPM3IC6duSNQXMs7vBqD9mosOgTIh6pjoSZmw==",
       "type": "package",
@@ -3699,6 +3739,24 @@
         "lib/netstandard2.0/Polly.xml",
         "polly.7.2.3.nupkg.sha512",
         "polly.nuspec"
+      ]
+    },
+    "RestSharp/108.0.1": {
+      "sha512": "XKwuwWq7A4dxZ8l9QkS2+ePLJ9ImmLaJSeFO6H2kpII4Us4n1NRs4w3c//8H2BYpL1XqBE8nmsd9aNCVBwXmOA==",
+      "type": "package",
+      "path": "restsharp/108.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/RestSharp.dll",
+        "lib/net5.0/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.108.0.1.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -7103,6 +7161,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Autodesk.Forge >= 1.9.7",
       "Autodesk.Oss >= 1.0.0-beta2",
       "Autodesk.SdkManager >= 1.0.0-beta1",
       "MSTest.TestAdapter >= 2.2.8",
@@ -7118,21 +7177,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\BetaTest.csproj",
+      "projectUniqueName": "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\BetaTest.csproj",
       "projectName": "BetaTest",
-      "projectPath": "C:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\BetaTest.csproj",
+      "projectPath": "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\BetaTest.csproj",
       "packagesPath": "C:\\Users\\srivasr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\obj\\",
+      "outputPath": "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\NuGet.Config",
+        "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\NuGet.Config",
         "C:\\Users\\srivasr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\packages": {},
+        "c:\\Users\\srivasr\\Downloads\\BetaTest3\\BetaTest\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7151,6 +7210,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Autodesk.Forge": {
+            "target": "Package",
+            "version": "[1.9.7, )"
+          },
           "Autodesk.Oss": {
             "target": "Package",
             "version": "[1.0.0-beta2, )"

@@ -31,7 +31,7 @@ public class TestModelDerivativeAPi
     
     Console.WriteLine($"CLIENT_ID: {clientId}");
     Console.WriteLine($"CLIENT_SECRET: {clientSecret}");
-        dynamic auth =  await  new TwoLeggedApi().AuthenticateAsync(Environment.GetEnvironmentVariable("CLIENT_ID")!,Environment.GetEnvironmentVariable("CLIENT_SECRET")!, "client_credentials", new Scope[] { Scope.BucketCreate, Scope.BucketRead, Scope.DataRead, Scope.DataWrite, Scope.DataCreate  });
+        dynamic auth =  await  new TwoLeggedApi().AuthenticateAsync(clientId,clientSecret, "client_credentials", new Scope[] { Scope.BucketCreate, Scope.BucketRead, Scope.DataRead, Scope.DataWrite, Scope.DataCreate  });
 
         // Console.WriteLine(auth.ToString());
         token = auth.access_token;

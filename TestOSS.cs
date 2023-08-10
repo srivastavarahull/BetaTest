@@ -28,7 +28,7 @@ public class TestModelDerivativeAPi
 
         dynamic auth =  await  new TwoLeggedApi().AuthenticateAsync(_clientId, _clientSecret, "client_credentials", new Scope[] { Scope.BucketCreate, Scope.BucketRead, Scope.DataRead, Scope.DataWrite, Scope.DataCreate  });
 
-        Console.WriteLine(auth.ToString());
+        // Console.WriteLine(auth.ToString());
         token = auth.access_token;
         SDKManager sdkManager = SdkManagerBuilder
                 .Create() // Creates SDK Manager Builder itself.

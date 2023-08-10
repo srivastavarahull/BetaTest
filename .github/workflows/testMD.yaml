@@ -24,7 +24,7 @@ jobs:
             echo "MY_SECRET=${{ secrets.CLIENT_ID }}" >> $GITHUB_ENV
             dotnet restore
             dotnet test 
-          # env:
-          #   Client_Id: ${{ secrets.CLIENT_ID }}
-          #   Client_Secret: ${{ secrets.CLIENT_SECRET }}
+          env:
+            Client_Id: ${{ secrets.CLIENT_ID }}
+            Client_Secret: ${{ secrets.CLIENT_SECRET }}
     

@@ -24,14 +24,9 @@ public class TestModelDerivativeAPi
     public static async Task ClassInitializeAsync(TestContext testContext)
     {
 
-        Console.WriteLine("----------------------\n");
        
         Console.WriteLine(_clientId);
         Console.WriteLine(_clientSecret);
-       
-        Console.WriteLine("\n----------------------");
-
-
         dynamic auth =  await  new TwoLeggedApi().AuthenticateAsync(_clientId, _clientSecret, "client_credentials", new Scope[] { Scope.BucketCreate, Scope.BucketRead, Scope.DataRead, Scope.DataWrite, Scope.DataCreate  });
 
         // Console.WriteLine(auth.ToString());

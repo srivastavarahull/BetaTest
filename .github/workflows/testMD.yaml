@@ -21,6 +21,7 @@ jobs:
             dotnet-version: '6.0.412' 
         - name: Build and test
           run: |
+            echo "MY_SECRET=${{ secrets.CLIENT_ID }}" >> $GITHUB_ENV
             dotnet restore
             dotnet test 
           # env:

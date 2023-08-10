@@ -25,7 +25,9 @@ public class TestModelDerivativeAPi
     public static async Task ClassInitializeAsync(TestContext testContext)
     {
 
-       
+     string clientId = Environment.GetEnvironmentVariable("CLIENT_ID") ?? "ClientId not found";
+    string clientSecret = Environment.GetEnvironmentVariable("CLIENT_SECRET") ?? "ClientSecret not found";
+
     
     Console.WriteLine($"CLIENT_ID: {clientId}");
     Console.WriteLine($"CLIENT_SECRET: {clientSecret}");

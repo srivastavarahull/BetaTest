@@ -26,8 +26,8 @@ public class TestModelDerivativeAPi
 
         Console.WriteLine("----------------------\n");
        
-        Console.WriteLine(_clientId);
-        Console.WriteLine(_clientSecret);
+        Console.WriteLine(Environment.GetEnvironmentVariable("CLIENT_ID"));
+        Console.WriteLine(Environment.GetEnvironmentVariable("CLIENT_SECRET"));
        
         Console.WriteLine("\n----------------------");
 

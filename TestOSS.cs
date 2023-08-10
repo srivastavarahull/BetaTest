@@ -46,6 +46,7 @@ public class TestModelDerivativeAPi
         Bucket bucket = await ossApi.GetBucketDetailsAsync(bucketKey, accessToken:token);
         string bucketkey = bucket.BucketKey;
         string bucketOwner = bucket.BucketOwner;
+        Console.WriteLine("This is no code Jai Shree Raam");
         Assert.IsTrue(bucketOwner != null);
     }
 
